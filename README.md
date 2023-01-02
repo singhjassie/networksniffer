@@ -32,15 +32,16 @@ chmod +x networksniffer
 # Usage
 To forward the incoming traffic from victim's device you need to run this command.
 
-Enter the following command to see usage help
 ```sh
 echo 1 > /proc/sys/net/ipv4/ip_forward
+```
 
-```
-./networksniffer
- --help
-```
+Enter the following command to see usage help
+
 ```sh
+./networksniffer --help
+```
+```
 Usage: networksniffer
 .py [options]
 
